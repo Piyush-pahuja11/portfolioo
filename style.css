@@ -49,14 +49,14 @@ p{
     text-align: center;
 }
 .section-title span{
-    color: rgb(139, 35, 180);
+    color: #b32c04;
 }
 .cta {
     display: inline-block;
     padding: 10px 30px;
     color: white;
     background-color: transparent;
-    border: 2px solid rgb(187, 20, 220);
+    border: 2px solid  #b32c04;
     font-size: 2rem;
     text-transform: uppercase;
     letter-spacing: .1rem;
@@ -65,8 +65,8 @@ p{
     transition-property: background-color, color;
 }   
 .cta:hover{
-    color: white;
-    background-color: rgb(156, 23, 218);
+    color: white !important;
+    background-color: #b32c04;
 }
 .brand h1 {
 	font-size: 3rem;
@@ -334,7 +334,7 @@ p{
 	top: 19px;
 	height: 98%;
 	width: 98%;
-	border: 7px solid rgb(180, 20, 220);
+	border: 7px #b32c04;
 	z-index: -1;
 }
 /*end about section/*
@@ -349,7 +349,8 @@ p{
     text-align: center;
 }
 #learn .title span{
-    color: rgb(139, 35, 180);
+    /* color: rgb(139, 35, 180); */
+	color: #b32c04;
 }
 
 #learn .learn{
@@ -642,7 +643,7 @@ p{
 		top: 34px;
 		height: 98%;
 		width: 98%;
-		border: 10px solid rgb(163, 20, 220);
+		border: 10px solid #b32c04;
     }
     #about .col-right .cta {
         color: black;
